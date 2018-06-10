@@ -1,0 +1,54 @@
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Arial (Hebrew)', Arial;
+    color: #6d6d6d;
+}
+
+home{
+    
+}
+#sideMenu ul{
+    list-style-type: none;
+}
+
+#sideMenu ul li a {
+    display: inline-block;
+    width: 110px;
+    height: 36px;
+    padding-right: 12px;
+    color: #5c5c5c;
+    line-height: 32px;
+    background: linear-gradient(white,rgb(207,207,207));
+    text-decoration: none;
+    
+    /* url("./images/side_menu_sprite.png"); */
+}
+
+#sideMenu ul li a:active{
+   border: 1px black dotted;
+}
+
+.cube{
+    background: url('./images/cube_bg.png');
+    width: 248px;
+    height: 142px;
+    padding: 1px 22px 15px;
+   
+    
+}
+
+h3
+{   
+    font-weight: bold;
+    color: #005ca0;
+    margin-bottom: 10px;
+}
+
+
+.contact{
+    background: url('./images/contact_form_bg.png');
+    width: 347px;
+    min-height: 332px;
+    padding: 12px 18px;
+}
