@@ -286,7 +286,9 @@ nav>ul>li{
     background-repeat: no-repeat;
     
     background-position: -17px top;
-    background-color: pink;
+   
+    padding: 0px 15px;
+    display: inline;
     
 }   
 

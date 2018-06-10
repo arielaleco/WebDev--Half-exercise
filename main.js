@@ -1,5 +1,5 @@
-function ShowContactPage(){
+function ShowPage(page_name){
     var obj = document.getElementById("main-content");
-    obj.src = "contact.html";
+    obj.src = page_name;
 
 }
