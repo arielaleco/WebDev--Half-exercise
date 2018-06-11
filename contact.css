@@ -45,8 +45,9 @@ h3
     margin-bottom: 10px;
 }
 
-.gray{
+.gray-underline{
     color: #72716d;
+    border-bottom: 1px solid #cbcbcb;
 }
 
 .contact{
@@ -94,6 +95,8 @@ textarea{
 /* //==================================================// */
 main{
     padding: 90px;
+    width: 1000px;
+    margin: auto;
 }
 
 #main-right{    
@@ -106,8 +109,17 @@ main{
   
     float: right;
     height: 100%;
-    width:400px ;
+    width:440px ;
 }
+#main-middle a{
+text-decoration: none;
+color:#6d6d6d;
+}
+#main-middle a:hover{
+    text-decoration: underline;
+    color:blue;
+    }
+
 #main-left{
   padding: 26px 3px 20px 0px;
  

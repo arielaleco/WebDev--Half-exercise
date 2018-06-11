@@ -17,11 +17,15 @@ main{
 }
 
 header{   
-    width: 100%;
-        
+    width: 100%;      
+    background-color: rgb(144, 144, 144); 
 }
 
-
+#all-header-items{
+    width:950px;
+    margin:auto;
+    position: relative;
+}
 
 footer{
     background: linear-gradient(rgb(192, 191, 191), rgb(144, 144, 144) );
@@ -63,13 +67,19 @@ margin-bottom:-5px;
     font-size: 12px; 
     border: 0.5px solid gray;
     width:126px;
+    padding:3px;
+    position: relative;
+    bottom: 6px;
+    left:-4px;
+    
 }
 #do-search{
     padding: 0px;
-    margin: 0px;
-    
+    margin: 5px 0px;
+    border:0px;
     width:19px;
     height: 19px;
+    
 }
 #do-search>img{
     display: block;
@@ -78,9 +88,16 @@ margin-bottom:-5px;
 .simple-link{
     text-decoration: none;
     color: white;
+    font-size: 12px;
+    font-weight: bold;
 }
+.simple-link:hover{
+    text-decoration: underline;
+    color: rgb(31, 91, 159);
+}
+
 #search-banner{
-    padding-left: 25%; 
+    padding-left: 115px; 
    height: 60px;
    padding-top:16px;  
    background-color: rgb(144, 144, 144);
@@ -263,14 +280,17 @@ nav>ul>li{
 #home {
     
     background-image: url("images/menu_home.png");
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
     background-position: -17px top;
+    border-right: 0px;
    
-    padding: 0px 15px;
+    padding: 0px 15px 0px 3px;
     display: inline;
-    
+ /* //   0px 15px 0px 3px */
 }   
+#home:hover{
+    background-position: 0px top; 
+}
 
 ul>li>a  {   
     display:inline-block;
@@ -315,7 +335,7 @@ ul>li>a  {
 #logo-img{
     position: absolute;
     top:45px;
-    right:60px;
+    right:-60px;
 }
 
 
