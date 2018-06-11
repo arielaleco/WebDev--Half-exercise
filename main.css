@@ -133,6 +133,7 @@ margin-bottom:-5px;
     border-radius: 0px 30px 0px  0px;
     border:0.6px solid rgb(196, 196, 196);
     height:292px;
+    padding-top:10px;
 }
 .small-card .upper-header{
     
@@ -145,11 +146,20 @@ margin-bottom:-5px;
 
 
 }
+.small-card .below-image a{
+    margin-top:23px;
+    
+    background: url("images/read_more_yellow.png") no-repeat 0 0;
+    background-color: red;
 
-.below-image.wide-image{
-    /* height: 110px;
-    width:250px; */
+    text-align: left;
+    
 }
+.small-card .below-image a span{
+    margin-left:23px;
+   
+}
+
 .small-card>.special-case
 {
     background-color: purple;
@@ -167,10 +177,7 @@ margin-bottom:-5px;
     
     
 }
-.special-case div{
-    /* display: inline-block;
-    width:40%; */
-}
+
 
 .special-case a{
     display: block;
@@ -245,6 +252,8 @@ margin-bottom:-5px;
 .small-card h3{    
     padding: 0px;
     margin: 0px;
+    font-size:14px;
+    color:rgb(73, 73, 73);
 }
 
 .small-card hr{
